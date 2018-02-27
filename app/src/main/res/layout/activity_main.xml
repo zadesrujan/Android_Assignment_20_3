@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3dffec"
+    tools:context="com.example.user.android_assignment_20_3.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:textSize="20sp"
+        android:textColor="#f50606"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Adding and Deleting Contacts" />
+
+    <Button
+        android:id="@+id/buttonViewAll"
+        android:layout_below="@+id/buttonADD"
+        android:layout_marginBottom="5dp"
+        android:text="View All CONTACT"
+        android:textStyle="bold"
+        android:textColor="#0808f5"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonADD"
+        android:text="ADD CONTACT"
+        android:textColor="#0808f5"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_contact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp" />
+
+
+</RelativeLayout>
